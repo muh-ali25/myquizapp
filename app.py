@@ -44,7 +44,7 @@ class QuizApp:
         self.display_question()
 
     def create_widgets(self):
-        self.title_label = tk.Label(self.master, text="SMIT INSTITUTE", font=("Helvetica", 26, "bold"),
+        self.title_label = tk.Label(self.master, text="TECH WORLD", font=("Helvetica", 26, "bold"),
                                     bg="#4682b4", fg="white", pady=10)
         self.title_label.pack(fill='x')
 
